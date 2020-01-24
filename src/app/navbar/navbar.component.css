@@ -7,8 +7,10 @@
     padding-left: 2.375rem; 
     /* border: none; */
     margin-right: 20px;
+    font-family: 'Share Tech Mono', monospace;
 
 }
+ 
 
 /* fevicon search-icon  */
 
@@ -31,7 +33,7 @@
 /* navbar logo  */
 .logo {
     color:red;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Share Tech Mono', monospace;
 }
 /* navbar login button */
 .btn-login {
@@ -40,6 +42,7 @@
     border-style: solid;
     color:gray;
     margin-right: 5px;
+    
 }
  /* navbar cart-icon  */
  .cart-icon{
@@ -49,7 +52,7 @@
  /* navbar cart icon */
  .category-txt{
      font-weight: lighter;
-     font-family: sans-serif;
+     font-family: 'Share Tech Mono', monospace;
      margin-right: 30px;
     }
     .login-icon{
@@ -86,5 +89,9 @@ display:block;
 .dropdown {
     position: relative;
     display: inline-block;
+    font-family: 'Share Tech Mono', monospace;
     margin: auto;
+}
+.nav-item{
+    font-family: 'Share Tech Mono', monospace;   
 }

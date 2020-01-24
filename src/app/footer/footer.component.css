@@ -2,6 +2,7 @@
 .footer-link{
     text-decoration: none;
     color:gray;
+    font-family: 'Share Tech Mono', monospace;
 }
 .footer-link:hover{
     text-decoration: none;
@@ -10,4 +11,5 @@
 /* footer contact */
 .contact{
     color: gray;
+    font-family: 'Share Tech Mono', monospace;
 }

@@ -1,3 +1,5 @@
+import { BookartistfilterComponent } from './bookartistfilter/bookartistfilter.component';
+import { UserprofileComponent } from './userprofile/userprofile.component';
 import { HomeComponent } from './home/home.component';
 import { UserregitrationComponent } from './userregitration/userregitration.component';
 import { ArtistregitrationComponent } from './artistregitration/artistregitration.component';
@@ -13,7 +15,13 @@ const routes: Routes = [
   {path: 'Artist_Login',component:ArtistloginComponent},
   {path: 'User_Login',component:UserloginComponent},
   {path: 'Artist_Registration',component:ArtistregitrationComponent},
-  {path: 'User_Registration',component:UserregitrationComponent}
+  {path: 'User_Registration',component:UserregitrationComponent},
+  {
+    path: 'Account_User',component:UserprofileComponent,
+    children:[
+      {path: 'Book_Artist_filter',component:BookartistfilterComponent}
+      ]
+  }
 
 ];
 

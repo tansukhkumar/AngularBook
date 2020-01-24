@@ -1,0 +1,58 @@
+/* side menu and side links */
+
+.sideMenu{
+    float: left;
+    height: 80%;
+    margin: auto;    
+}
+.sideMenu-content{
+    background-color:black; 
+    transition: transform .2s; 
+    border-bottom-style: groove;
+    font-family: 'Share Tech Mono', monospace;
+}
+.sideMenu-content a {
+    color:white;
+    padding: 12px 25px;
+     text-decoration: none; 
+     display: block; 
+     font-size:large;
+     
+      
+     
+}
+.sideMenu-content a:hover {background-color:white;
+    color:black;
+    transform: scale(1.1);
+         
+}
+
+
+/* artist profile  */
+ 
+.Artist-profile-head{
+    font-family: 'Share Tech Mono', monospace;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 28px;
+    font-weight: lighter;
+
+}
+.Artist-profile-text{
+
+    font-family: 'Share Tech Mono', monospace;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    padding-top:5px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+ /*Artist card-Body   */
+.card-body{
+    font-family: 'Share Tech Mono', monospace;
+}

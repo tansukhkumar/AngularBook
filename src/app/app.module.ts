@@ -9,6 +9,12 @@ import { FooterComponent } from './footer/footer.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { HomeComponent } from './home/home.component';
 import {HttpClientModule} from '@angular/common/http';
+import { UserprofileComponent } from './userprofile/userprofile.component';
+import { UserprofilepostComponent } from './userprofilepost/userprofilepost.component';
+import { BookartistfilterComponent } from './bookartistfilter/bookartistfilter.component';
+import { UsersidemenuComponent } from './usersidemenu/usersidemenu.component';
+import { ArtistsearchComponent } from './artistsearch/artistsearch.component';
+import { ArtistprofileComponent } from './artistprofile/artistprofile.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +23,13 @@ import {HttpClientModule} from '@angular/common/http';
     FooterComponent,
     CarouselComponent,
     rougtingComponants,
-    HomeComponent
+    HomeComponent,
+    UserprofileComponent,
+    UserprofilepostComponent,
+    BookartistfilterComponent,
+    UsersidemenuComponent,
+    ArtistsearchComponent,
+    ArtistprofileComponent
   ],
   imports: [
     BrowserModule,
