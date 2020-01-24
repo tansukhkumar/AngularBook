@@ -15,6 +15,7 @@ import { BookartistfilterComponent } from './bookartistfilter/bookartistfilter.c
 import { ArtistsearchComponent } from './artistsearch/artistsearch.component';
 import { ArtistprofileComponent } from './artistprofile/artistprofile.component';
 import { ArtistcategoryComponent } from './artistcategory/artistcategory.component';
+import { ApplicationworkingComponent } from './applicationworking/applicationworking.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ArtistcategoryComponent } from './artistcategory/artistcategory.compone
     BookartistfilterComponent,
     ArtistsearchComponent,
     ArtistprofileComponent,
-    ArtistcategoryComponent
+    ArtistcategoryComponent,
+    ApplicationworkingComponent
   ],
   imports: [
     BrowserModule,
