@@ -12,7 +12,6 @@ import {HttpClientModule} from '@angular/common/http';
 import { UserprofileComponent } from './userprofile/userprofile.component';
 import { UserprofilepostComponent } from './userprofilepost/userprofilepost.component';
 import { BookartistfilterComponent } from './bookartistfilter/bookartistfilter.component';
-import { UsersidemenuComponent } from './usersidemenu/usersidemenu.component';
 import { ArtistsearchComponent } from './artistsearch/artistsearch.component';
 import { ArtistprofileComponent } from './artistprofile/artistprofile.component';
 import { ArtistcategoryComponent } from './artistcategory/artistcategory.component';
@@ -28,7 +27,6 @@ import { ArtistcategoryComponent } from './artistcategory/artistcategory.compone
     UserprofileComponent,
     UserprofilepostComponent,
     BookartistfilterComponent,
-    UsersidemenuComponent,
     ArtistsearchComponent,
     ArtistprofileComponent,
     ArtistcategoryComponent

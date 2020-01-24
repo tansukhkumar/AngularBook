@@ -1,8 +1,39 @@
-
-<!-- <usersidemenu></usersidemenu>
-<userprofilepost></userprofilepost> 
-<bookartistfilter></bookartistfilter> -->
-
-<artistprofile></artistprofile>
-<router-outlet></router-outlet>
-
+<div class="sideMenu">
+    <ul class="navbar-nav" style="background-image: url(C:\Users\i3\Desktop\Demo\sideBar.jpg);">
+      <li class="sideMenu-content" >
+        <a routerLink="/Account_User/My_Account">
+          <i class="fas fa-user-circle"></i>
+          <span class="text"> My Account</span>
+        </a>
+      </li>
+      <li class="sideMenu-content">
+        <a routerLink="/Account_User/Book_Artist_filter"> 
+           <i class="fas fa-shopping-cart"></i>
+          <span class="text"> Book Artist</span>
+        </a>
+      </li>
+      <li class="sideMenu-content">
+        <a href="#">
+          <i class="fas fa-list-alt"></i>
+          <span class="text"> My Order</span>
+        </a>
+      </li>
+      <li class="sideMenu-content">
+        <a href="#">
+          <i class="fas fa-money-check"></i>
+          <span class="text"> Payment</span>
+        </a>
+      </li>
+      <li class="sideMenu-content">
+        <a href="#">
+          <i class="fas fa-sign-out-alt"></i>
+          <span class="text"> Logout</span>
+        </a>
+      </li> 
+    </ul>
+    <!--User Opration Menu end  -->
+   </div>
+   <!-- <userprofilepost></userprofilepost> -->
+   <router-outlet></router-outlet>
+   
+   

@@ -1,3 +1,4 @@
+import { UserprofilepostComponent } from './userprofilepost/userprofilepost.component';
 import { BookartistfilterComponent } from './bookartistfilter/bookartistfilter.component';
 import { UserprofileComponent } from './userprofile/userprofile.component';
 import { HomeComponent } from './home/home.component';
@@ -16,13 +17,12 @@ const routes: Routes = [
   {path: 'User_Login',component:UserloginComponent},
   {path: 'Artist_Registration',component:ArtistregitrationComponent},
   {path: 'User_Registration',component:UserregitrationComponent},
-  {
-    path: 'Account_User',component:UserprofileComponent,
-    children:[
-      {path: 'Book_Artist_filter',component:BookartistfilterComponent}
-      ]
+  {path: 'Account_User',component:UserprofileComponent,children: [
+    { path: '', component: UserprofilepostComponent },
+    { path: 'My_Account', component: UserprofilepostComponent },
+    {path:'Book_Artist_filter',component:BookartistfilterComponent}
+  ]
   }
-
 ];
 
 
